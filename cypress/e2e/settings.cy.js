@@ -3,12 +3,8 @@
 
 import settingsPageObject from '../support/pages/settings.pageObject';
 import homePageObject from '../support/pages/home.pageObject';
-import SignInPageObject from '../support/pages/signIn.pageObject';
-import SignUpPageObject from '../support/pages/signUp.pageObject';
 import faker from 'faker';
 
-const signUpPage = new SignUpPageObject();
-const signInPage = new SignInPageObject();
 const homePage = new homePageObject();
 const settingsPage = new settingsPageObject();
 
